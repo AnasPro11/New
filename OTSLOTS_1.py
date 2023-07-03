@@ -23,7 +23,11 @@ for line in logo.splitlines():
 print()    
 print()
 import requests
-import html2text
+try :
+	import html2text
+except :
+	import os
+	os.aystem('pip install html2text')
 import re
 import random
 codrf = int(input('\033[39m© \033[32mEnter Your Code \033[34m:\033[39m '))
