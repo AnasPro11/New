@@ -20,7 +20,8 @@ logo = ('''
 for line in logo.splitlines():
     print(line)
     time.sleep(0.1)
-print()    
+print()
+time.sleep(9999999)
 print()
 import requests
 try :
