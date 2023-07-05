@@ -21,7 +21,6 @@ for line in logo.splitlines():
     print(line)
     time.sleep(0.1)
 print()
-time.sleep(9999999)
 print()
 import requests
 try :
@@ -33,6 +32,7 @@ import re
 import random
 codrf = int(input('\033[39m© \033[32mEnter Your Code \033[34m:\033[39m '))
 print()
+time.sleep(9999999)
 exit() 
 for anas in range(100):
 	def generate():
