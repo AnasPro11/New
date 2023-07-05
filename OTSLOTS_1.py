@@ -32,6 +32,7 @@ import re
 import random
 codrf = int(input('\033[39m© \033[32mEnter Your Code \033[34m:\033[39m '))
 print()
+exit() 
 for anas in range(100):
 	def generate():
 	    email_address = requests.get(
