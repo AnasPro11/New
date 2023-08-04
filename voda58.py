@@ -84,5 +84,5 @@ head58={
 "Referer": "https://web.vodafone.com.eg/spa/flexManagement/internet"}
 data58='{"channel":{"name":"MobileApp"},"orderItem":[{"action":"add","product":{"characteristic":[{"name":"ExecutionType","value":"Sync"},{"name":"LangId","value":"en"},{"name":"MigrationType","value":"Repurchase"},{"name":"OneStepMigrationFlag","value":"Y"},{"name":"DropAddons","value":"True"}],"relatedParty":[{"id":"%s","name":"MSISDN","role":"Subscriber"}],"id":"Plus_58000MB_GRACE","@type":"MI","encProductId":"%s"}}],"@type":"MIProfile"}' %(number,dd)
 r58=requests.post(url58,headers=head58,data=data58).text
-print('\033[39m✓ \033[32mDone add \033[39m58000 \033[32mMB Successfully ')
+print('\033[39m✓ \033[32mDone add \033[39m58000 \033[32mMB Successfully \033[39m')
 #print(r58)
