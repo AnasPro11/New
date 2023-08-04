@@ -63,7 +63,7 @@ a = requests.get(url, headers=headers).text
 
 #print(a)
 
-dd = re.search('{"value":"MI_XC_CMBO_300","schemeName":"TechnicalID"},{"value":"(.*?)","schemeName":"EncProductID"}', a).group(1)
+dd = re.search('{"value":"Plus_58000MB","schemeName":"TechnicalID"},{"value":"(.*?)","schemeName":"EncProductID"}', a).group(1)
 
 #print(dd)
 
