@@ -96,7 +96,7 @@ head58= {
     "Connection": "Keep-Alive",
     "Accept-Encoding": "gzip",
     "User-Agent": "okhttp/4.9.3"}
-data58= {"channel":{"name":"MobileApp"},"orderItem":[{"action":"add","product":{"characteristic":[{"name":"ExecutionType","value":"Sync"},{"name":"LangId","value":"en"},{"name":"MigrationType","value":"Repurchase"},{"name":"OneStepMigrationFlag","value":"Y"},{"name":"DropAddons","value":"True"}],"relatedParty":[{"id":number,"name":"MSISDN","role":"Subscriber"}],"id":"Plus_58000MB_GRACE","@type":"MI","encProductId":dd}}],"@type":"MIProfile"}
+data58= {"channel":{"name":"MobileApp"},"orderItem":[{"action":"add","product":{"characteristic":[{"name":"LangId","value":"en"},{"name":"ExecutionType","value":"Sync"},{"name":"DropAddons","value":"False"},{"name":"OneStepMigrationFlag","value":"Y"},{"name":"Journey","value":"MI_ELigibility"}],"encProductId":dd,"id":"Plus_58000MB","relatedParty":[{"id":number,"name":"MSISDN","role":"Subscriber"}],"@type":"MI"}}],"@type":"MIProfile"}
 r58=requests.post(url58,headers=head58,json=data58).text
 print('\033[39m✓ \033[32mDone add \033[39m58000 \033[32mMB Successfully \033[39m')
-print(r58)
+#print(r58)
